@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+}
+
+body {
+  font-family: "poppins", sans-serif;
+}
+
+#side_bar {
+  background-color: #ffffff;
+}
+
+#content {
+  background-color: #fafbff;
+}
+
+#customer {
+  background-color: #5932ea;
+}
+
+#customer_text {
+  color: #ffffff;
+}
+
+hr {
+  background-color: #eeeeee;
+}
+
+.side-bar-text {
+  color: #9197b3;
+}
+
+#sidebar_bottom {
+  background: linear-gradient(107.91deg, #eaabf0 7.37%, #4623e9 95.19%);
+  color: white;
+}
+
+#sidebar_bottom-p-2 {
+  background-color: #ffffff;
+  color: #4925e9;
+}
+
+#content_section-1 {
+  background-color: #fafbff;
+  box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+  border-radius: 10px;
+  border: 1px solid rgba(226, 236, 249, 0.5);
+}
+
+#content_section-2 {
+    background-color: #FFFFFF;
+}
+
+#content_section_1-p {
+    color: #ACACAC;
+}
+
+#span-1 {
+    color:#00AC4F;
+}
+
+#span-2 {
+    color:#D0004B;
+}
+
+#content_section-3 {
+    background-color: #FFFFFF;
+}
+
+.section-3-p1 {
+    color: #16C098;
+}
+
+.section-3-div {
+    background-color: #F9FBFF;
+}
+
+.tr {
+    color: #B5B7C0;
+
+}
+
+#vertical-line {
+    background-color: #F0F0F0;
+}
+
+.active {
+    background-color: #16C09861;
+    border: 1px solid #00B087;
+    color: #008767;
+
+}
+
+.inactive {
+    color: #DF0404;
+    background-color: #FFC5C5;
+    border: 1px solid #DF0404;
+}
+
+
+.entries {
+    color: #B5B7C0;
+}
+
+.entries-1 {
+    background-color: #F5F5F5;
+    border: 1px solid #EEEEEE;
+
+}
+
+.entries-2 {
+    color: #FFFFFF;
+    background-color: #5932EA;
+    border: 1px solid #5932EA;
+}
